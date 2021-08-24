@@ -1,0 +1,22 @@
+@import "index.css";
+
+html {
+    margin-left: var(--marginBody);
+    margin-right: var(--marginBody);
+}
+
+body {
+}
+
+a:link,
+a:hover {
+    color: var(--color--text__theme);
+}
+
+a:visited {
+    color: var(--color--text__visited);
+}
+
+a:active {
+    color: var(--colorTheme);
+}

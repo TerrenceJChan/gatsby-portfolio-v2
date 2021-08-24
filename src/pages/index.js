@@ -1,5 +1,14 @@
-import React from "react"
+import * as React from "react"
 
-export default function Home() {
-  return <div>Hello world!</div>
+import Layout from "../components/Layout"
+
+const IndexPage = () => {
+  return (
+    <Layout>
+      <h1>Hi people</h1>
+      <p>This is the home page.</p>
+    </Layout>
+  )
 }
+
+export default IndexPage
