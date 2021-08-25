@@ -1,11 +1,17 @@
 :root {
     --color--text: #181A18;
-    --color--text__theme: #61892f;
+    --color--text__theme: #86c232;
     --color--text__highlight: #86c232;
     
     --color--background: #F9FFFF;
 
-    --color--text__link: #61892f;
+    --color--text__link: #86c232;
     --color--text__active-link: #86c232;
-    --color--text__visited: #506930
+    --color--text__visited: #86c232;
 }
+
+
+
+
+
+/* --color--text__theme: #61892f; */

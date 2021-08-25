@@ -4,6 +4,7 @@ import { FaAlignJustify } from "react-icons/fa"
 import { StaticImage } from "gatsby-plugin-image"
 
 import * as s from "./Header.module.css"
+// import logo from "../assets/images/logo.svg"
 
 const Header = () => {
   const [show, setShow] = useState(false)
@@ -20,6 +21,7 @@ const Header = () => {
               layout="constrained"
               height={92}
             />
+            {/* <img src={logo} alt="Terrence Chan" id="logo"/> */}
           </Link>
 
           <button className={s.navBtn} onClick={() => setShow(!show)}>

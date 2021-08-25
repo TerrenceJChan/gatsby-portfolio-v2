@@ -3,7 +3,7 @@
     --marginBody: 0;
 }
 
-@media only screen and (min-width: 680px) {
+@media only screen and (min-width: 280px) {
     :root {
         --marginBase: 5%;
         --marginBody: 0;
@@ -13,7 +13,7 @@
 @media only screen and (min-width: 768px) {
     :root {
         --marginBase: 10%;
-        --marginBody: 10%;
+        --marginBody: 15%;
     }
 }
 
