@@ -1,0 +1,11 @@
+@import "../assets/css/index.css";
+
+.content {
+    margin-left: var(--margin--section);
+    margin-right: var(--margin--section);
+
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+}

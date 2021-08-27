@@ -1,11 +1,16 @@
 @import "index.css";
 
 html {
-    margin-left: var(--marginBody);
-    margin-right: var(--marginBody);
+    
 }
 
 body {
+    background-color: var(--color--background);
+}
+
+section {
+    margin-left: var(--margin--body);
+    margin-right: var(--margin--body);
 }
 
 a:link,

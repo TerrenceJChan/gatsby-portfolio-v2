@@ -1,26 +1,27 @@
 :root {
-    --marginBase: 5%;
-    --marginBody: 0;
+    --margin--section: 5%;
+    --margin--body: 0;
+
+    --height--header: 6rem;
 }
 
-@media only screen and (min-width: 280px) {
+@media only screen and (min-width: 360px) {
     :root {
-        --marginBase: 5%;
-        --marginBody: 0;
+        --margin--section: 5%;
+        --margin--body: 0;
     }
 }
 
 @media only screen and (min-width: 768px) {
     :root {
-        --marginBase: 10%;
-        --marginBody: 15%;
+        --margin--section: 0%;
+        --margin--body: 15%;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     :root {
-        --marginBase: 15%;
-        --marginBody: 33%;
-        --body--width: 60%;
+        --margin--section: 30%;
+        --margin--body: 30%;
     }
 }

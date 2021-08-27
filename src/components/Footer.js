@@ -1,8 +1,10 @@
 import React from 'react'
 
+import * as s from "./Footer.module.css"
+
 const Footer = () => {
     return (
-        <footer>
+        <footer className={s.content}>
             © Terrence Chan {new Date().getFullYear()}
         </footer>
     )

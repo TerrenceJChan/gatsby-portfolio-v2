@@ -1,3 +1,5 @@
+@import "../assets/css/index.css";
+
 .logo {
     font-size: 2em;
 }
@@ -5,16 +7,26 @@
 /* Desktop */
 /*#########*/
 .navbar {
+    height: var(--height--header);
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    background-color: var(--color--navbar);
+
+    z-index: 2;
 }
 .navCenter {
     width: 90vw;
     max-width: var(--max-width);
 }
 .navHeader {
-    height: 6rem;
+    height: var(--height--header);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +88,8 @@
 
 @media screen and (min-width: 992px) {
     .navbar {
-        height: 6rem;
+        
+        width: 100%;
     }
     .navCenter {
         display: flex;

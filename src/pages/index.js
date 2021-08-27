@@ -1,13 +1,29 @@
 import * as React from "react"
 
 import Layout from "../components/Layout"
+import Section from "../components/Section"
 
 const IndexPage = () => {
   return (
-    <Layout>
-      <h1>Hi people</h1>
-      <p>This is the home page.</p>
-    </Layout>
+    <>
+      <Layout>
+        <Section>
+          <p>Some content</p>
+        </Section>
+        <Section>
+          <p>Some more content</p>
+        </Section>
+        <Section>
+          <p>Some more content</p>
+        </Section>
+        <Section>
+          <p>Some more content</p>
+        </Section>
+        <Section>
+          <p>Some more content</p>
+        </Section>
+      </Layout>
+    </>
   )
 }
 
