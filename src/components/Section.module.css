@@ -4,7 +4,7 @@
     margin-left: var(--margin--section);
     margin-right: var(--margin--section);
 
-    height: 100vh;
+    height: calc(100vh - var(--height--header));
 
     display: flex;
     align-items: center;

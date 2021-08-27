@@ -1,8 +1,7 @@
 @import "../assets/css/index.css";
 
 .scrollContainer {
-    height: 100vh;
-    padding-top: var(--height--header);
+    height: calc(100vh - var(--height--header));
     scroll-snap-type: y mandatory;
     position: relative;
     scroll-behavior: smooth;
