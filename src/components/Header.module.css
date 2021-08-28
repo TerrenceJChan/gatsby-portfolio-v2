@@ -7,7 +7,7 @@
 /* Desktop */
 /*#########*/
 .navbar {
-    height: var(--height--header);
+    /* height: var(--height--header); */
     display: flex;
     align-items: center;
     justify-content: center;
