@@ -4,8 +4,10 @@ import * as s from "./Section.module.css"
 
 const Section = ({ children }) => {
     return (
-        <section className={s.content}>
-            {children}
+        <section className={s.wrapper}>
+            <div className={s.content}>
+                {children}
+            </div>
         </section>
     )
 }
