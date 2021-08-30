@@ -1,28 +1,38 @@
 @import "../assets/css/index.css";
-
 .wrapper {
     margin-left: var(--margin--body);
     margin-right: var(--margin--body);
-
     height: calc(100vh - var(--height--header));
-
     display: flex;
 }
 
 .Content {
     padding-top: 20vh;
+    width: 100%;
 }
 
 .FlexBox {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .FlexBox_flexItem___left {
-    text-align: left;
+    text-align: var(--flex-item___alignment);
+    width: var(--flex-item___width);
 }
 
 .FlexBox_flexItem___right {
     display: flex;
+    flex-wrap: wrap;
+    width: var(--flex-item___width);
     justify-content: center;
     align-items: center;
+}
+
+.Card___small {
+    border: 1px solid var(--color--text__theme);
+    padding: 3px;
+    margin: 2px;
+    box-shadow: 1px 2px 1.5px #888888;
 }
