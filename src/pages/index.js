@@ -2,15 +2,13 @@ import * as React from "react"
 
 import Layout from "../components/Layout"
 import Section from "../components/Section"
+import About from "../components/custom-sections/About"
 
 const IndexPage = () => {
   return (
     <>
       <Layout>
-        <Section>
-          <h2>About</h2>
-          <p>Some content</p>
-        </Section>
+        <About />
         <Section>
           <p>Some more content</p>
         </Section>

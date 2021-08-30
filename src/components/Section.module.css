@@ -9,6 +9,20 @@
     display: flex;
 }
 
-.content {
+.Content {
     padding-top: 20vh;
+}
+
+.FlexBox {
+    display: flex;
+}
+
+.FlexBox_flexItem___left {
+    text-align: left;
+}
+
+.FlexBox_flexItem___right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
