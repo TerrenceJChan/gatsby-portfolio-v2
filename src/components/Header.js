@@ -31,22 +31,35 @@ const Header = () => {
         <div
           className={show ? `${s.navLinks} ${s.showLinks}` : `${s.navLinks}`}
         >
-          <Link
+          {/* <Link
             to="/"
             className={s.navLink}
             activeClassName={s.activeLink}
             onClick={() => setShow(false)}
           >
             Home
-          </Link>
-          <Link
+          </Link> */}
+          <a href="#intro" className={s.navLink} onClick={() => setShow(!show)}>
+            Intro
+          </a>
+          <a href="#about" className={s.navLink} onClick={() => setShow(!show)}>
+            About
+          </a>
+          <a
+            href="#experiences"
+            className={s.navLink}
+            onClick={() => setShow(!show)}
+          >
+            Experiences
+          </a>
+          {/* <Link
             to="/projects"
             className={s.navLink}
             activeClassName={s.activeLink}
             onClick={() => setShow(false)}
           >
             Projects
-          </Link>
+          </Link> */}
         </div>
       </div>
     </header>

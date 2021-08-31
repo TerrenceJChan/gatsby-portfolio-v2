@@ -8,13 +8,10 @@ import "../assets/css/global.css"
 import * as s from "./Layout.module.css"
 
 const Layout = ({ children }) => {
-
   return (
     <>
       <Header />
-      <div className={s.scrollContainer}>
-        {children}
-      </div>
+      <div className={s.scrollContainer}>{children}</div>
       {/* <Footer /> */}
     </>
   )
