@@ -9,6 +9,15 @@ const About = (props) => {
         <Section header={"At a Glance"}>
             <div className={s.FlexBox}>
                 <div className={s.FlexBox_flexItem___left}>
+                    <h3>Education</h3>
+                </div>
+                <div className={s.FlexBox_flexItem___right}>
+                    <div className={s.Card___small}>UofT 2021 (Programming Bootcamp)</div> 
+                    <div className={s.Card___small}>UW 2015-2020 (BA)</div> 
+                </div>
+            </div>
+            <div className={s.FlexBox}>
+                <div className={s.FlexBox_flexItem___left}>
                     <h3>Study Foci</h3>
                 </div>
                 <div className={s.FlexBox_flexItem___right}>
@@ -20,7 +29,7 @@ const About = (props) => {
             </div>
             <div className={s.FlexBox}>
                 <div className={s.FlexBox_flexItem___left}>
-                    <h3>My Hobbies</h3>
+                    <h3>Hobbies</h3>
                 </div>
                 <div className={s.FlexBox_flexItem___right}>
                     <div className={s.Card___small}>Running</div> 

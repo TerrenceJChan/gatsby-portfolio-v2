@@ -1,8 +1,9 @@
 :root {
     --margin--body: 5%;
     --height--header: 6rem;
+    --flexbox___width: 100%;
     --flex-item___width: 100%;
-    --flex-item___top-spacing: 10vh;
+    --flex-item___top-spacing: 5vh;
     --flex-item___alignment: center;
 }
 
@@ -15,6 +16,7 @@
 @media only screen and (min-width: 640px) {
     :root {
         --margin--body: 15%;
+        --flexbox___width: 90%;
         --flex-item___width: 50%;
         --flex-item___alignment: left;
     }
@@ -22,6 +24,7 @@
 
 @media only screen and (min-width: 1024px) {
     :root {
+        --flexbox___width: 80%;
         --margin--body: 30%;
     }
 }

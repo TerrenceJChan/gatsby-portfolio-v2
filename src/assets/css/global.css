@@ -26,6 +26,7 @@ h2 {
 
     top: var(--flex-item___top-spacing);
     /* left: max(30px, calc(var(--margin--body) / 3)); */
+    left: -5%;
 
     position: absolute;
 
