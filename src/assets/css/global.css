@@ -9,6 +9,7 @@ body {
 }
 
 section {
+    position: relative;
     margin-left: var(--margin--body);
     margin-right: var(--margin--body);
 }
@@ -16,14 +17,15 @@ section {
 h2 {
     /* font: bold 12px Sans-Serif; */
     font-size: 2rem;
-    text-align: center;
+    white-space: nowrap;
+    text-align: left;
     letter-spacing: 10px;
     text-transform: uppercase;
     /* background: #369; */
     color: var(--color--text__header);
 
-    top: 20vh;
-    left: max(30px, calc(var(--margin--body) / 1.5));
+    top: var(--flex-item___top-spacing);
+    /* left: max(30px, calc(var(--margin--body) / 3)); */
 
     position: absolute;
 

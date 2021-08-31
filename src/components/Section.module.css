@@ -7,7 +7,7 @@
 }
 
 .Content {
-    padding-top: 20vh;
+    padding-top: var(--flex-item___top-spacing);
     width: 100%;
 }
 
@@ -15,6 +15,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.FlexBox_flexItem___column {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
 }
 
 .FlexBox_flexItem___left {

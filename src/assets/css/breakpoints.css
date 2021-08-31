@@ -2,6 +2,7 @@
     --margin--body: 5%;
     --height--header: 6rem;
     --flex-item___width: 100%;
+    --flex-item___top-spacing: 10vh;
     --flex-item___alignment: center;
 }
 

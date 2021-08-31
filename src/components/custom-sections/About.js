@@ -6,7 +6,7 @@ import * as s from "../Section.module.css"
 
 const About = (props) => {
     return (
-        <Section header={"About"}>
+        <Section header={"At a Glance"}>
             <div className={s.FlexBox}>
                 <div className={s.FlexBox_flexItem___left}>
                     <h3>Study Foci</h3>
