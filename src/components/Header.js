@@ -52,6 +52,20 @@ const Header = () => {
           >
             Experiences
           </a>
+          <a
+            href="#toolkit"
+            className={s.navLink}
+            onClick={() => setShow(!show)}
+          >
+            Toolkit
+          </a>
+          <a
+            href="#contact"
+            className={s.navLink}
+            onClick={() => setShow(!show)}
+          >
+            Contact
+          </a>
           {/* <Link
             to="/projects"
             className={s.navLink}
