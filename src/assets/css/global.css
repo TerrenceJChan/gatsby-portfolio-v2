@@ -10,8 +10,8 @@ body {
 
 section {
     position: relative;
-    margin-left: var(--margin--body);
-    margin-right: var(--margin--body);
+    margin-left: var(--body--margin);
+    margin-right: var(--body--margin);
 }
 
 h2 {
@@ -25,7 +25,7 @@ h2 {
     color: var(--color--text__header);
 
     top: var(--flex-item___top-spacing);
-    /* left: max(30px, calc(var(--margin--body) / 3)); */
+    /* left: max(30px, calc(var(--body--margin) / 3)); */
     left: -5%;
 
     position: absolute;

@@ -1,6 +1,6 @@
 @import "../assets/css/index.css";
 
 .content {
-    margin-left: var(--margin--body);
-    margin-right: var(--margin--body);
+    margin-left: var(--body--margin);
+    margin-right: var(--body--margin);
 }

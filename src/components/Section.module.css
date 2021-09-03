@@ -1,7 +1,8 @@
 @import "../assets/css/index.css";
 .wrapper {
-    margin-left: var(--margin--body);
-    margin-right: var(--margin--body);
+    margin-left: var(--body--margin);
+    margin-right: var(--body--margin);
+    padding: var(--section--padding);
     height: calc(100vh - var(--height--header));
     display: flex;
 }
@@ -15,7 +16,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: var(--flexbox___width);
     margin-bottom: 10px;
 }
 
