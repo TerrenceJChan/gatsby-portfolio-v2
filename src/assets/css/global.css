@@ -1,5 +1,9 @@
 @import "index.css";
 
+:root {
+    --transition-standard: 0.5s ease-in;
+}
+
 html {
     overflow-y: hidden;
 }
@@ -14,6 +18,11 @@ section {
     margin-right: var(--body--margin);
 }
 
+p,
+h3 {
+    color: var(--color--text);
+}
+
 h2 {
     /* font: bold 12px Sans-Serif; */
     font-size: 2rem;
@@ -22,7 +31,7 @@ h2 {
     letter-spacing: 10px;
     text-transform: uppercase;
     /* background: #369; */
-    color: var(--color--text__header);
+    color: var(--color--text___header);
 
     top: var(--flex-item___top-spacing);
     /* left: max(30px, calc(var(--body--margin) / 3)); */
@@ -34,13 +43,13 @@ h2 {
     transform: rotate(90deg);
 }
 
-a:link,
-a:hover {
-    color: var(--color--text__theme);
+a {
+    color: var(--color--text___link);
+    transition: var(--transition-standard);
 }
 
-a:visited {
-    color: var(--color--text__visited);
+a:hover {
+    color: var(--color--text___link-hover);
 }
 
 a:active {

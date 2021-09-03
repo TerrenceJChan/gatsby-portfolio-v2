@@ -58,7 +58,7 @@
     text-align: center;
     font-size: 1.5rem;
     text-transform: capitalize;
-    color: var(--color--text__link);
+    color: var(--color--navbar___link);
     letter-spacing: var(--letterSpacing);
     padding: 1rem 0;
     border-top: 1px solid var(--grey-500);
@@ -72,7 +72,7 @@
 }
 
 .activeLink {
-    color: var(--color--text__active-link);
+    color: var(--color--text___link-active);
 }
 .contactLink {
     display: flex;
