@@ -16,11 +16,9 @@ const Contact = props => {
           <h3>Email</h3>
         </div>
         <div className={s.FlexBox_flexItem___right}>
-          <p>
-            <a href="mailto:contact@terrencejchan.com">
-              contact@terrencejchan.com
-            </a>
-          </p>
+          <a href="mailto:contact@terrencejchan.com">
+            contact@terrencejchan.com
+          </a>
         </div>
       </div>
       <div className={s.FlexBox}>
@@ -28,15 +26,13 @@ const Contact = props => {
           <h3>GitHub</h3>
         </div>
         <div className={s.FlexBox_flexItem___right}>
-          <p>
-            <a
-              href="https://github.com/TerrenceJChan"
-              target="_blank"
-              rel="noreferrer"
-            >
-              View my projects!
-            </a>
-          </p>
+          <a
+            href="https://github.com/TerrenceJChan"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View my projects!
+          </a>
         </div>
       </div>
       <div className={s.FlexBox}>
@@ -44,15 +40,13 @@ const Contact = props => {
           <h3>LinkedIn</h3>
         </div>
         <div className={s.FlexBox_flexItem___right}>
-          <p>
-            <a
-              href="https://www.linkedin.com/in/terrencejchan/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Let's connect!
-            </a>
-          </p>
+          <a
+            href="https://www.linkedin.com/in/terrencejchan/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Let's connect!
+          </a>
         </div>
       </div>
     </Section>

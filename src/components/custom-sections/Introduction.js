@@ -13,17 +13,20 @@ const Intro = props => {
             src="../../assets/images/terrence-800x800.png"
             alt="Terrence's headshot"
             placeholder="blurred"
-            height={200}
+            layout="constrained"
+            width={400}
+            heght={400}
           />
         </div>
         <div className={s.FlexBox_flexItem___column}>
-          <p>Heya!</p>
-        </div>
-        <div className={s.FlexBox_flexItem___column}>
-          <p>My name's Terrence.</p>
-        </div>
-        <div className={s.FlexBox_flexItem___column}>
-          <p>I do Front-End Development.</p>
+          <div>
+            <p>
+              Hey! My name's <span class="highlight">Terrence</span>
+            </p>
+            <p>
+              I do <span class="highlight">Front-End Development</span>
+            </p>
+          </div>
         </div>
       </div>
     </Section>

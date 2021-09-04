@@ -10,27 +10,30 @@ const Experience = props => {
         <div className={s.FlexBox_flexItem___left}>
           <div>
             <h3>Sun Life Financial</h3>
-            <p>Digital Publisher</p>
-            <p>2019 - Present</p>
+            <p>
+              Digital Web Publisher
+              <br />
+              2019 - Present
+            </p>
           </div>
         </div>
         <div className={s.FlexBox_flexItem___right}>
           <div className={s.Card___small}>
-            Modernized Sun Life's websites to be AODA compliant.
+            Modernized Sun Life's websites to be AODA compliant
           </div>
           <div className={s.Card___small}>
             Migrated hundreds of webpages from OpenText's WEM to Adobe
-            Experience Manager.
+            Experience Manager
           </div>
           <div className={s.Card___small}>
-            Maintained a variety of international sites through AEM.
+            Maintained a variety of international sites through AEM
           </div>
           <div className={s.Card___small}>
             Headed a cleanup project to modernize hundreds of internal pages in
-            a timely manner.
+            a timely manner
           </div>
           <div className={s.Card___small}>
-            Renewed legacy web pages using carefully written HTML and CSS.
+            Renewed legacy web pages using carefully written HTML and CSS
           </div>
         </div>
       </div>

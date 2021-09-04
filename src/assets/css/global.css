@@ -4,6 +4,11 @@
     --transition-standard: 0.5s ease-in;
 }
 
+@font-face {
+    font-family: Merriweather;
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+
 html {
     overflow-y: hidden;
 }
@@ -14,18 +19,35 @@ body {
 
 section {
     position: relative;
-    margin-left: var(--body--margin);
-    margin-right: var(--body--margin);
+    margin-left: var(--body___margin);
+    margin-right: var(--body___margin);
+}
+
+p, span, div {
+    font-family: Merriweather;
+}
+
+div {
+    font-size: var(--text--small___size);
 }
 
 p,
 h3 {
+    font-size: var(--text--large___size);
+}
+
+p {
     color: var(--color--text);
+}
+
+h3 {
+    color: var(--text--large___size);
 }
 
 h2 {
     /* font: bold 12px Sans-Serif; */
     font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
     white-space: nowrap;
     text-align: left;
     letter-spacing: 10px;
@@ -34,13 +56,17 @@ h2 {
     color: var(--color--text___header);
 
     top: var(--flex-item___top-spacing);
-    /* left: max(30px, calc(var(--body--margin) / 3)); */
+    /* left: max(30px, calc(var(--body___margin) / 3)); */
     left: -5%;
 
     position: absolute;
 
     transform-origin: 0 0;
     transform: rotate(90deg);
+}
+
+h3 {
+    color: var(--color--text___theme);
 }
 
 a {
@@ -56,6 +82,6 @@ a:active {
     color: var(--colorTheme);
 }
 
-/* #logo {
-    height: 92px;
-} */
+.highlight {
+    color: var(--color--text___highlight);
+}
