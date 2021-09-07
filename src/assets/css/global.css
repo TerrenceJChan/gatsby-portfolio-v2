@@ -23,7 +23,9 @@ section {
     margin-right: var(--body___margin);
 }
 
-p, span, div {
+p,
+span,
+div {
     font-family: Merriweather;
 }
 
@@ -84,4 +86,28 @@ a:active {
 
 .highlight {
     color: var(--color--text___highlight);
+}
+
+button.button-link {
+    cursor: pointer;
+    color: var(--color--text___link);
+    text-decoration: underline;
+
+    padding: 3px;
+    margin: 0px 5px 7.5px 5px;
+    text-align: center;
+
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+button.button-link:hover {
+    color: var(--color--text___link-hover);
+
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
 }
