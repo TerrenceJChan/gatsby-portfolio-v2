@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/Layout"
 import Introduction from "../components/custom-sections/Introduction"
@@ -11,6 +12,10 @@ const IndexPage = () => {
   return (
     <>
       <Layout>
+        <Helmet>
+          <title>Portfolio | Terrence Chan</title>
+          <meta name="description" content="Personal portfolio site" />
+        </Helmet>
         <Introduction />
         <About />
         <Experiences />
