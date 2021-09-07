@@ -19,7 +19,6 @@ const Header = () => {
               alt="Terrence Chan"
               placeholder="blurred"
               layout="constrained"
-              height={92}
             />
             {/* <img src={logo} alt="Terrence Chan" id="logo"/> */}
           </Link>

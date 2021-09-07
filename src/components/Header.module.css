@@ -31,6 +31,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.navHeader button {
+   margin-left: 2rem;
+}
 /* .navHeader img {
     width: 200px;
     margin-left: -6px;
@@ -99,7 +102,7 @@
     .navHeader {
         padding: 0;
         margin-right: 2rem;
-        height: auto;
+        height: var(--height___header);
     }
 
     .navBtn {

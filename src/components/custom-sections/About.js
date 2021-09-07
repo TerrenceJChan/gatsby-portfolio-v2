@@ -56,7 +56,6 @@ export default class SectionBio extends Component {
             <div className={s.Card___small}>Dragon Boating</div>
           </div>
         </div>
-        )
 
         {isOpen && (
           <Lightbox

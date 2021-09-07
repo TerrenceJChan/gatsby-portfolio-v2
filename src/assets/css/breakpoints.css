@@ -1,9 +1,9 @@
 :root {
     --body___margin: 5%;
     --section___padding: 0 5px;
-    --height___header: 6rem;
+    --height___header: 8rem;
     --flex-item___width: 100%;
-    --flex-item___top-spacing: 4vh;
+    --flex-item___top-spacing: 6vh;
     --flex-item___alignment: center;
 
     --text--large___size: 1.5rem;
