@@ -66,7 +66,8 @@ const Header = () => {
             Contact
           </a>
           <a
-            href="/resume-terrence-chan"
+            href="/resume-terrence-chan.pdf"
+            target="_blank"
             className={s.navLink}
             onClick={() => setShow(!show)}
           >
