@@ -65,6 +65,13 @@ const Header = () => {
           >
             Contact
           </a>
+          <a
+            href="/resume-terrence-chan"
+            className={s.navLink}
+            onClick={() => setShow(!show)}
+          >
+            <span className={s.navHighlight}>Resume</span>
+          </a>
           {/* <Link
             to="/projects"
             className={s.navLink}

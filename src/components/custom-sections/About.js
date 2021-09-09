@@ -1,27 +1,23 @@
-import React, { Component } from 'react';
+import React, { Component } from "react"
 import Section from "../Section"
-import Lightbox from 'react-image-lightbox';
+import Lightbox from "react-image-lightbox"
 
 import * as s from "../Section.module.css"
-import 'react-image-lightbox/style.css';
+import "react-image-lightbox/style.css"
 
-const images = [
-  "/uoft-certificate.png",
-  "/uw-diploma.png"
-]
+const images = ["/uoft-certificate.png", "/uw-diploma.png"]
 
 export default class SectionBio extends Component {
-
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       photoIndex: 0,
       isOpen: false,
-    };
+    }
   }
 
   render() {
-    const { photoIndex, isOpen } = this.state;
+    const { photoIndex, isOpen } = this.state
     return (
       <Section header={"About"}>
         <div className={s.FlexBox} id="about">
@@ -29,8 +25,24 @@ export default class SectionBio extends Component {
             <h3>Education</h3>
           </div>
           <div className={s.FlexBox_flexItem___right}>
-            <div ><button class="button-link" onClick={() => this.setState({ photoIndex: 0, isOpen: true })} onKeyUp={this.handleKeyUp}>UofT 2021 (Programming Bootcamp)</button></div>
-            <div ><button class="button-link" onClick={() => this.setState({ photoIndex: 1, isOpen: true })} onKeyUp={this.handleKeyUp}>UW 2015-2020 (BA)</button></div>
+            <div>
+              <button
+                class="button-link"
+                onClick={() => this.setState({ photoIndex: 0, isOpen: true })}
+                onKeyUp={this.handleKeyUp}
+              >
+                UofT 2021 (Programming Bootcamp)
+              </button>
+            </div>
+            <div>
+              <button
+                class="button-link"
+                onClick={() => this.setState({ photoIndex: 1, isOpen: true })}
+                onKeyUp={this.handleKeyUp}
+              >
+                UW 2015-2020 (BA)
+              </button>
+            </div>
           </div>
         </div>
         <div className={s.FlexBox}>
@@ -63,7 +75,6 @@ export default class SectionBio extends Component {
             onCloseRequest={() => this.setState({ isOpen: false })}
           />
         )}
-
       </Section>
     )
   }

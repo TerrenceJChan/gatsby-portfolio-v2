@@ -39,6 +39,9 @@
     margin-left: -6px;
     margin-bottom: -9px;
 } */
+.navHighlight {
+    color: var(--color--text___link-hover);
+}
 .navBtn {
     padding: 0.15rem 0.75rem;
 }

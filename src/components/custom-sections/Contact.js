@@ -49,6 +49,16 @@ const Contact = props => {
           </a>
         </div>
       </div>
+      <div className={s.FlexBox}>
+        <div className={s.FlexBox_flexItem___left}>
+          <h3>Resume</h3>
+        </div>
+        <div className={s.FlexBox_flexItem___right}>
+          <a href="/resume-terrence-chan.pdf" target="_blank" rel="noreferrer">
+            View my resume!
+          </a>
+        </div>
+      </div>
     </Section>
   )
 }
